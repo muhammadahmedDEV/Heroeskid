@@ -1,0 +1,210 @@
+.join-professional {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.ant-select-selection__placeholder {
+  color: blue;
+}
+
+.join-professional__top-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 903px;
+}
+
+.join-professional__top-container__title {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+
+.join-professional__middle-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 903px;
+  margin: auto;
+  -webkit-box-shadow: 0 2px 0px rgba(0, 0, 0, 0.15), 0 0.5px 0px rgba(0, 0, 0, 0.12), 1px 0px 0px rgba(0, 0, 0, 0.12), -1px 0px 0px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2px 0px rgba(0, 0, 0, 0.15), 0 0.5px 0px rgba(0, 0, 0, 0.12), 1px 0px 0px rgba(0, 0, 0, 0.12), -1px 0px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.join-professional__middle-container__input {
+  width: 100%;
+  max-width: 409px;
+  height: auto;
+  min-height: 48px;
+  border-radius: 5px;
+  margin-left: 0px;
+  -webkit-box-shadow: 0 -2px 0px rgba(0, 0, 0, 0.15), 0 0.5px 0px rgba(0, 0, 0, 0.12), 1px 0px 0px rgba(0, 0, 0, 0.12), -1px 0px 0px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 -2px 0px rgba(0, 0, 0, 0.15), 0 0.5px 0px rgba(0, 0, 0, 0.12), 1px 0px 0px rgba(0, 0, 0, 0.12), -1px 0px 0px rgba(0, 0, 0, 0.12);
+  padding: 0 15px;
+}
+
+.join-professional__middle-container__has__error {
+  width: 100%;
+  max-width: 409px;
+  height: 48px;
+  border-radius: 5px;
+  margin-left: 0px;
+  padding: 15px;
+  font-size: 21px;
+  color: #f44336;
+  border: 1px solid #f44336;
+}
+
+.join-professional__middle-container__checkbox {
+  width: 409px;
+}
+
+.join-professional__separator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.join-professional__separator__text {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.join-professional__separator__devider {
+  margin: 10px 5px;
+  border-top: 1px solid black;
+  width: 30px;
+}
+
+.join-professional__bottom-container {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 200;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.join-professional__bottom-container__text-block {
+  margin-left: 15px;
+}
+
+.join-professional__bottom-container__blue-text {
+  color: #39a2cf;
+  cursor: pointer;
+}
+
+.join-professional__error {
+  font-size: 16px;
+  color: red;
+}
+
+form {
+  width: 100%;
+  max-width: 670px;
+  margin: 25px auto;
+}
+
+.input-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 5px 0px;
+}
+
+.columns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+label {
+  display: block;
+  padding-bottom: 5px;
+}
+
+.form-message {
+  font-size: 10px;
+  padding-top: 2px;
+}
+
+.form-message.valid {
+  color: #4caf50;
+}
+
+.form-message.invalid {
+  color: #f44336;
+}
+
+.join-professional .submit-button {
+  background-color: #39a2cf;
+  height: 45px;
+  width: 145px;
+  font-size: 17px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.join-professional .submit-button:hover {
+  background-color: #2585ad;
+}
+
+.join-professional .margin-top {
+  margin-top: 20px;
+}
+
+.add-button {
+  background-color: #303036;
+  height: 45px;
+  width: 80px;
+  font-size: 17px;
+  color: white;
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.add-button:hover {
+  background-color: #3b3b3d;
+}
+
+.border {
+  border: 1px solid red;
+}
+/*# sourceMappingURL=styles.css.map */

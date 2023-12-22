@@ -1,0 +1,49 @@
+@import "../../styles/variables.scss";
+
+.city-tile {
+  box-shadow: 0 2px 0px rgba(0, 0, 0, 0.15), 0 0.5px 0px rgba(0, 0, 0, 0.12),
+    1px 0px 0px rgba(0, 0, 0, 0.12), -1px 0px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  width: 100%;
+  height: 328px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  background: white;
+  @media (max-width: 768px) {
+    margin-top: 12px;
+  }
+  &__city-name {
+    font-size: 20px;
+  }
+  &__logo-block {
+    &__logo {
+      width: 100%;
+      height: 121px;
+    }
+  }
+  &__info-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin-top: 35px;
+    margin-bottom: 33px;
+  }
+  &__like {
+    font-size: 18px;
+    margin-left: 5px;
+  }
+  &__text {
+    margin: 7px 1px 20px 2px;
+    font-family: Montserrat;
+    font-size: 12px;
+    text-align: center;
+    color: #000000;
+  }
+  &__specialty {
+    font-size: 12px;
+  }
+}

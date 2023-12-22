@@ -1,0 +1,38 @@
+.city_page {
+  width: 100%;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.city_page__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.city_page__header__top_text {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 50px;
+  padding-left: 25px;
+}
+
+.city_page__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.city_page__body__block {
+  margin: 25px;
+}
+/*# sourceMappingURL=styles.css.map */

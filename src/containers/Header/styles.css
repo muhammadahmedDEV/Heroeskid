@@ -1,0 +1,42 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80px;
+  background-size: cover;
+}
+
+.header__logo-block {
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.header__buttons-block {
+  margin-right: 30px;
+}
+
+.header__buttons-block__button {
+  color: white !important;
+  font-weight: 400 !important;
+}
+
+.header__buttons-block__button:hover {
+  background: transparent !important;
+}
+
+.redBg {
+  background: url("../../assets/icons/bluetop.png") no-repeat 100% 100% #d12c27;
+  background-size: cover;
+}
+
+.whiteBg {
+  background: url("../../assets/icons/bluetop.png") no-repeat 100% 100%;
+  background-size: cover;
+}
+/*# sourceMappingURL=styles.css.map */

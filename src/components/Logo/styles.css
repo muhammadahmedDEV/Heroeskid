@@ -1,0 +1,15 @@
+.user-icon {
+  position: relative;
+}
+
+.user-icon__logo {
+  height: 85px;
+  width: 100px;
+}
+
+.user-icon__mask {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+}
+/*# sourceMappingURL=styles.css.map */

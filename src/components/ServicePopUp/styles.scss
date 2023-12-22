@@ -1,0 +1,47 @@
+@import "../../styles/variables.scss";
+
+.service-popup {
+  &__close-Btn {
+  border: none;
+  outline: none;
+  box-shadow: none;
+
+  &:focus,
+  &:hover,
+  &:active,
+  &:focus:active {
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+  }
+  &__Textfont {
+    font-family: "Montserrat", sans-serif;
+    color: black;
+  }
+  &__text-center {
+    text-align: center;
+  }
+  &__btn-submit {
+    background-color: $--filter-gray !important;
+    width: 130px;
+    height: 45px;
+    color: white !important;
+    border-radius: 5px !important;
+  }
+
+}
+.custom-dialog {
+  .MuiDialogTitle-root {
+    padding: 0;
+    .MuiTypography-h6 {
+      color: black;
+      font-size: 30px;
+
+      margin-bottom: 10px;
+      font-size: 30px;
+    }
+  }
+
+}
+

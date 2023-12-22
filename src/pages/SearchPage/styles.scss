@@ -1,0 +1,9 @@
+.search_page {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  overflow-x: auto;
+  flex-direction: column;
+  &__content {
+    padding: 40px 24px;
+  }
+}

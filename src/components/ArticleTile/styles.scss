@@ -1,0 +1,72 @@
+@import "../../styles/variables.scss";
+
+.article-tile {
+  box-shadow: 0 2px 0px rgba(0, 0, 0, 0.15), 0 0.5px 0px rgba(0, 0, 0, 0.12),
+    1px 0px 0px rgba(0, 0, 0, 0.12), -1px 0px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  margin: 20px 0;
+  padding: 40px;
+  position: relative;
+  &__list {
+    display: flex;
+    align-items: flex-start;
+    word-break: break-word;
+    line-break: auto;
+    word-wrap: break-word;
+    margin-bottom: 20px;
+    &__dot {
+      background: black;
+      width: 10px;
+      height: 10px;
+      border-radius: 5px;
+      margin: 13px 10px;
+      min-width: 10px;
+    }
+  }
+
+  &__title-block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    @media (max-width: 576px) {
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+    &__article-text {
+      font-size: 27px;
+      font-weight: 500;
+      margin-left: 15px;
+    }
+    &__article-text-level2 {
+      font-size: 24px;
+      font-weight: 500;
+      margin: 15px 0;
+    }
+    &__article-text-level3 {
+      font-size: 21px;
+      font-weight: 500;
+    }
+  }
+  &__content-block {
+    font-size: 22px;
+    font-weight: 300;
+    text-align: justify;
+    &__text {
+      word-break: break-word;
+      line-break: auto;
+      word-wrap: break-word;
+      white-space: pre-wrap;
+    }
+  }
+}
+.button-block {
+  position: absolute;
+  top: 7px;
+  right: -20px;
+}

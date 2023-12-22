@@ -1,0 +1,63 @@
+@import "../../styles/variables.scss";
+
+.advanced-filter {
+  right: 0;
+  position: fixed;
+  top: 0px;
+  height: 100vh;
+  width: 420px;
+  z-index: -10;
+  display: none;
+  background-color: $--filter-gray;
+  @media (max-width: 780px) {
+    display: block;
+  }
+  @media (max-width: 420px) {
+    width: 100%;
+    // display: block;
+  }
+  &__head {
+    height: 105px;
+    background-color: $aqua-blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    &__close {
+      width: 24px;
+      height: 24px;
+      cursor: pointer;
+      position: absolute;
+      top: 45px;
+      left: 20px;
+    }
+    &__reset {
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+      > img {
+        width: 66px;
+        height: 50px;
+      }
+      > span {
+        text-align: center;
+        color: white;
+        margin-top: 10px;
+        font-size: 13px;
+      }
+    }
+  }
+  &__text {
+    text-align: center;
+    margin-top: 25px;
+    font-size: large;
+    color: white;
+  }
+}
+
+@media (max-width: 780px) {
+  .home_page__search-block {
+    padding: 30px 10px 10px;
+    margin-top: 0;
+  }
+}

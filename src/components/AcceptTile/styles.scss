@@ -1,0 +1,35 @@
+@import "../../styles/variables.scss";
+
+.accept-tile {
+  box-shadow: 0 2px 0px rgba(0, 0, 0, 0.15), 0 0.5px 0px rgba(0, 0, 0, 0.12),
+    1px 0px 0px rgba(0, 0, 0, 0.12), -1px 0px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  margin-bottom: 20px;
+  padding: 40px;
+  position: relative;
+  &__logo-block {
+    display: flex;
+    &__article-text {
+      font-size: 18px;
+    }
+  }
+  &__title-block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    &__article-text {
+      font-size: 27px;
+      font-weight: 500;
+      margin-left: 15px;
+    }
+  }
+  &__content-block {
+    font-size: 22px;
+    font-weight: 300;
+  }
+}

@@ -1,0 +1,33 @@
+.title {
+  text-align: center;
+  font-family: "Fjalla One", sans-serif;
+  text-transform: uppercase;
+  color: #39a2cf;
+  margin: 2rem;
+  font-size: 2.5rem;
+}
+
+.testimonials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+
+.content-container {
+  margin-left: 30px;
+}
+
+.content-container .content {
+  color: #39a2cf;
+  font-weight: 500;
+  font-size: 1.25vw;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,28 @@
+.professional-new {
+  margin: 45px;
+}
+
+.professional-new__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.professional-new__header__top_text {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.professional-new__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=styles.css.map */

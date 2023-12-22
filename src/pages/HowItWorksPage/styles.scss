@@ -1,0 +1,16 @@
+.howitworks_page {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+  &__search-block {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    &__slogan {
+      font-size: 20px;
+      font-weight: 300;
+      width: 1100px;
+      text-align: center;
+    }
+  }
+}

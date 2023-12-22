@@ -1,0 +1,24 @@
+@import '../../styles/variables.scss';
+
+.media-from{
+        background: rgba(0, 0, 0, 0.4);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &__main{
+            background: white;
+            border-radius: 5px;
+            padding: 20px;
+            &__input-block{
+                display: flex;
+                justify-content: space-between;   
+                font-size: 19px;                
+            }
+        }
+    
+}

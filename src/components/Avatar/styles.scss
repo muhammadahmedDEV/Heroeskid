@@ -1,0 +1,112 @@
+@import "../../styles/variables.scss";
+
+.avatar {
+  display: flex;
+  flex-direction: column;
+  &__container {
+    position: relative;
+    width: 100%;
+    max-width: 200px;
+    max-height: 200px !important;
+    &__image {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    &__overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: 0.3s ease;
+      background-color: #a9a9a990;
+      border-radius: 100px;
+      &:hover {
+        opacity: 1;
+      }
+      &__update {
+        // background-color: $--filter-gray;
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        padding: 5px;
+        border-radius: 5px;
+      }
+    }
+  }
+}
+.upload-input{
+  display: none !important;
+}
+.large {
+  // height: 180px;
+  width: fit-content;
+  max-width: 230px;
+  margin-right: 14;
+}
+.edit-btn {
+  width: 140px;
+  margin: 25px 0px 0px 0px;
+  font-size: 14px;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  color: rgba(0, 0, 0, 0.65);
+}
+.padding-upper{
+ padding-top: 12px;
+}
+.uploadButton{
+    line-height: 1.5715;
+    position: relative;
+    display: inline-block;
+    font-weight: 400;
+    white-space: nowrap;
+    text-align: center;
+    background-image: none;
+    border: 1px solid transparent;
+    // box-shadow: 0 2px 0 rgb(0 0 0 / 2%);
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    height: 32px;
+    padding: 4px 15px;
+    font-size: 14px;
+    border-radius: 2px;
+    color: rgba(0, 0, 0, 0.65);
+    background-color: #fff;
+    border-color: #d9d9d9;
+}
+.padding-btn{
+  padding: 12px;
+}
+.image-button {
+  background-color: $--filter-gray;
+  height: 42px;
+  width: 132px;
+  font-size: 17px;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  &:hover {
+    background-color: #3b3b3d;
+  }
+}

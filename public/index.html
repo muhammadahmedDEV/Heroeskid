@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name='description'
+    content='Everyday Heroes connects parents and caregivers to all accredited pediatric professionals and pediatric organizations in the areas of health, mental health and education with the goal of encouraging earlier intervention for better outcomes.' />
+  <!-- <meta property="og:image" content="%PUBLIC_URL%/shareThumbnail.jpg" /> -->
+  <meta property="og:image"
+    content="https://firebasestorage.googleapis.com/v0/b/heroes-kids-health.appspot.com/o/shareThumbnail.jpg?alt=media&token=3b84c12a-d5c6-4c49-a9a0-ab3dd649159d" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="1024" />
+  <meta property="og:image:height" content="1024" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.ehkidshealth.com/" />
+  <meta name="theme-color" content="#000000" />
+  <!-- Facebook Domain Verification code -->
+  <meta name="facebook-domain-verification" content="8sa2fbi6vg3tylwbkeu8oeh374zlev" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+  <title>Everyday Heroes Kids</title>
+  <!-- <!—- ShareThis BEGIN -—> -->
+  <!-- <script
+      async
+      src="https://platform-api.sharethis.com/js/sharethis.js#property=5eec981ef29ba900123dd323&product=sticky-share-buttons"
+    ></script> -->
+  <!-- With Count -->
+  <!-- <script
+      async
+      src="https://platform-api.sharethis.com/js/sharethis.js#property=5ef0528e08ecd500128efc25&product=sticky-share-buttons"
+    ></script> -->
+  <!-- For Inline Buttons -->
+  <!-- <script
+      type="text/javascript"
+      src="https://platform-api.sharethis.com/js/sharethis.js#property=5eec9cbdb61c220011097fd7&product=inline-share-buttons"
+      async="async"
+    ></script> -->
+  <!-- <!—- ShareThis END -—> -->
+  <style>
+    html,
+    body,
+    .app {
+      scroll-behavior: smooth;
+      /* height: 100%; */
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      /* overflow: hidden; */
+    }
+  </style>
+</head>
+
+<body>
+  <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
+  <div id="fb-root"></div>
+  <!-- <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v7.0"
+    ></script> -->
+
+  <!-- Fcaebook js SDK -->
+  <script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v8.0&appId=162785021664149&autoLogAppEvents=1"
+    nonce="YRM2POks"></script>
+
+  <!-- Facebook credentials of client's account -->
+
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        // appId: "162785021664149",
+        appId: "3528427520529301", // New facebook business app
+        cookie: true,
+        xfbml: true,
+        version: "v6.0",
+      });
+
+      FB.AppEvents.logPageView();
+    };
+
+    (function (d, s, id) {
+      var js,
+        fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) {
+        return;
+      }
+      js = d.createElement(s);
+      js.id = id;
+      js.src = "https://connect.facebook.net/en_US/sdk.js";
+      fjs.parentNode.insertBefore(js, fjs);
+    })(document, "script", "facebook-jssdk");
+  </script>
+  <!-- End of facebook configuration -->
+
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-FOnAJk_Hr5aErac_4nd7lcfwjsZUFqk"
+    type="text/javascript"></script>
+
+  <div class="app" id="root"></div>
+  <div id="modal-root"></div>
+
+  <!-- <div
+      class="sharethis-sticky-share-buttons"
+      data-url="https://ehkidshealth.com/"
+    ></div> -->
+  <!--UserWay plugin-->
+  <script>
+    (function () { var s = document.createElement("script"); s.setAttribute("data-account", "jbJxRCPDnv"); s.setAttribute("src", "https://cdn.userway.org/widget.js"); document.body.appendChild(s); })();
+  </script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" defer>
+  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" /> -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" defer>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" defer />
+  <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+  <script defer src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/ui/4.5.0/firebase-ui-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-firestore.js"></script>
+  <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.5.0/firebase-ui-auth.css" />
+
+</body>
+
+</html>

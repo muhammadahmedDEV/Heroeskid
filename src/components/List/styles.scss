@@ -1,0 +1,56 @@
+@import "../../styles/variables.scss";
+
+.list {
+  padding: 15px 25px 1px 25px;
+  color: white;
+  &__title {
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    &__count-block {
+      color: $--wave;
+    }
+  }
+  &__open {
+    background-color: black;
+  }
+  &__check-box-container {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  &__check-box-wrapper {
+    height: 24px;
+    width: 24px;
+    background-color: #eee;
+    border-radius: 5px;
+    margin-right: 13px;
+  }
+  &__list-container {
+    max-height: 300px;
+    // overflow: auto;
+  }
+}
+.open {
+  background-color: black;
+}
+
+.list .ant-select-dropdown {
+  // margin-top: 10px !important;
+  padding-top: 35px !important;
+}
+.list .ant-select-selector {
+  z-index: 11111 !important;
+}
+.list .ant-select-selection-search-input {
+  height: 30px !important;
+  width: 100% !important;
+  padding: 0 !important;
+  margin-left: 0 !important;
+}
+
+.list .ant-select-dropdown .dropdown {
+  max-height: 250px !important;
+  z-index: 11111 !important;
+  margin-bottom: 15px !important;
+}

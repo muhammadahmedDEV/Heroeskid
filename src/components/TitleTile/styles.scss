@@ -1,0 +1,32 @@
+@import '../../styles/variables.scss';
+
+.title-tile {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  position: relative;
+  &__title-block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    &__article-text {
+      font-size: 32px;
+      font-weight: 800;
+      margin-left: 15px;
+      color: #f04c4b;
+      letter-spacing: 1px;
+    }
+  }
+  &__content-block {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: justify;
+    @media (max-width: 576px) {
+      font-size: 18px;
+      text-align: left;
+    }
+  }
+}

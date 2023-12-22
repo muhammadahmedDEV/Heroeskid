@@ -1,0 +1,100 @@
+@import "../../styles/variables.scss";
+
+.khlf-logo {
+  @media (max-width: 576px) {
+    margin-top: 16px;
+  }
+  width: 100%;
+  &__header {
+    display: flex;
+    // justify-content: space-between;
+    justify-content: flex-start;
+    margin: 30px 0 25px 0;
+
+    &__header-title {
+      font-family: "Bebas Neue", sans-serif;
+      text-transform: uppercase;
+      color: #00aeef;
+      font-size: 36px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      @media (max-width: 616px) {
+        font-size: 26px;
+      }
+    }
+
+    &__top_text {
+      font-family: "Bebas Neue", sans-serif;
+      margin-top: 25px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #00aeef;
+      font-size: 36px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      @media (max-width: 616px) {
+        font-size: 26px;
+      }
+    }
+    &__title_text {
+      font-family: "Bebas Neue", sans-serif;
+      margin: 25px ​0px 5px 0p;
+      text-align: center;
+      text-transform: uppercase;
+      color: #000000;
+      font-size: 22px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      @media (max-width: 616px) {
+        font-size: 26px;
+      }
+    }
+  }
+  &__body {
+    width: auto;
+    
+    background: white;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    &__feedback {
+      font-family: Montserrat;
+      font-size: 24px;
+      font-weight: 300;
+      text-align: center;
+      margin-top: 10px;
+    };
+    &__khlf {
+      font-family: Montserrat;
+      font-size: 15px;
+      font-weight: 300;
+      text-align: center;
+      padding: 10px 64px;
+    };
+    &__imgBody {
+      // padding: 20px 20px;
+      margin: 60px 0px;
+    };
+    &__imgBodySponser {
+      padding: 5px 0px 20px 80px;
+    };
+    &__khlfLogo {
+      text-align: center;
+    };
+    &__khlfLogoIcons {
+      display: flex; 
+      // height:"190px";
+     align-items: center;
+     padding: 40px 20px;
+    }
+  }
+}

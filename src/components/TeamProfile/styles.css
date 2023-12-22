@@ -1,0 +1,32 @@
+.team-tile {
+  width: 260px;
+  text-align: center;
+  margin: 20px auto 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+}
+
+.name-title {
+  margin: 5px;
+  color: #000000;
+  font-size: 1.3rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.sub-title {
+  margin: 0;
+  color: #000000;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.location {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: red;
+  margin-top: -5px;
+}
+/*# sourceMappingURL=styles.css.map */

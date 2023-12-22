@@ -1,0 +1,51 @@
+@import "../../styles/variables.scss";
+
+.work-list {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  position: relative;
+  &__title-block {
+    display: flex;
+    align-items: center;
+    &__article-text {
+      font-size: 22px;
+      font-weight: 500;
+      margin-bottom: 30px;
+    }
+  }
+  &__content-block {
+    font-size: 22px;
+    font-weight: 300;
+  }
+  &__list {
+    display: flex;
+    align-items: flex-start;
+    word-break: break-word;
+    line-break: auto;
+    word-wrap: break-word;
+    &__dot {
+      background: black;
+      width: 10px;
+      height: 10px;
+      border-radius: 5px;
+      margin: 13px 10px;
+      min-width: 10px;
+    }
+  }
+  &__border {
+    border-bottom: 1px solid $aqua-blue;
+  }
+}
+.border {
+  border-bottom: 1px solid $aqua-blue;
+}
+.button-block-wt {
+  position: absolute;
+  top: -6px;
+  right: -28px;
+}

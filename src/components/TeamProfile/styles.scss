@@ -1,0 +1,36 @@
+@import "../../styles/variables.scss";
+
+.team-tile {
+  width: 260px;
+  text-align: center;
+  margin: 20px auto 20px;
+  align-items: center;
+  padding: 20px;
+}
+
+.name-title {
+  margin: 5px;
+  color: #000000;
+  font-size: 1.3rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.sub-title {
+  margin: 0;
+  color: #000000;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.edu-title {
+  margin: 5px;
+  color: #39a2cf;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.location {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: red;
+  margin-top: -5px;
+}

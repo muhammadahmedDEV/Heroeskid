@@ -1,0 +1,79 @@
+.user_page {
+  width: 100%;
+  overflow: scroll;
+  overflow-x: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.user_page__body {
+  background-color: #e5ecef;
+  padding: 10px 40px;
+}
+
+.user_page__body__buttons-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px white solid;
+}
+
+.user_page__body__main-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.user_page__body__main-block__left-block {
+  width: 70%;
+  margin-right: 20px;
+}
+
+.user_page__body__main-block__right-block {
+  width: 30%;
+}
+
+.user_page__body__images-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 10px;
+}
+
+.user_page__body__images-block__images {
+  height: 100px;
+}
+
+.user_page__body__images-block-with-margin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+}
+
+.user_page__body__images-block-with-margin__images {
+  height: 100px;
+  margin-right: 20px;
+}
+
+.edit-block-main {
+  position: relative;
+  height: 45px;
+}
+
+.edit-block-body {
+  position: absolute;
+  top: -15px;
+  right: -23px;
+}
+/*# sourceMappingURL=styles.css.map */

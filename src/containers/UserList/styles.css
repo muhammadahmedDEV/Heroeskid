@@ -1,0 +1,35 @@
+.user-list {
+  margin-left: 80px;
+}
+
+.user-list__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.user-list__header__top_text {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.user-list__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.user-list__body__block {
+  margin: 25px;
+}
+
+.addition-height {
+  height: 395px;
+}
+/*# sourceMappingURL=styles.css.map */

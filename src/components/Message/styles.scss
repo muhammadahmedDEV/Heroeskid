@@ -1,0 +1,26 @@
+@import "../../styles/variables.scss";
+.message-container {
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: auto;
+  background-color: $--background-blue;
+  margin-top: 1rem;
+  &__icon {
+    color: $aqua-blue;
+    padding: 0.5rem;
+    margin-right: 5px;
+  }
+  &__message {
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    &__text {
+      color: $aqua-blue;
+      padding: 0.5rem;
+      font-size: 14px;
+      text-align: justify;
+    }
+  }
+}

@@ -1,0 +1,124 @@
+@import "../../styles/variables.scss";
+
+.login {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  &__top-container {
+    display: flex;
+    // justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+    &__title {
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 14px;
+    }
+  }
+  &__middle-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 2px 0px rgba(0, 0, 0, 0.15), 0 0.5px 0px rgba(0, 0, 0, 0.12),
+      1px 0px 0px rgba(0, 0, 0, 0.12), -1px 0px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    &__input {
+      width: 60%;
+      height: 48px;
+      border-radius: 5px;
+      margin-bottom: 25px;
+      margin-left: 0px;
+      box-shadow: 0 -2px 0px rgba(0, 0, 0, 0.15),
+        0 0.5px 0px rgba(0, 0, 0, 0.12), 1px 0px 0px rgba(0, 0, 0, 0.12),
+        -1px 0px 0px rgba(0, 0, 0, 0.12);
+      padding: 15px;
+      ::placeholder{
+        color: rgba(0, 0, 0, 0.8) !important;
+      }
+      @media (max-width:767px) {
+        width: 90%;
+        
+      }
+    }
+    &__checkbox {
+      width: 60%;
+      @media (max-width:767px) {
+        width: 90%;
+        
+      }
+    }
+  }
+  &__separator {
+    display: flex;
+    &__text {
+      font-size: 15px;
+      font-weight: 600;
+    }
+    &__devider {
+      margin: 10px 5px;
+      border-top: 1px solid black;
+      width: 30px;
+    }
+  }
+  &__social__signup{
+    @media (max-width:767px) {
+     display: flex;
+     flex-direction: column;
+    }
+  }
+  &__bottom-container {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    font-weight: 200;
+    display: flex;
+    &__text-block {
+      margin-left: 15px;
+      font-size: 18px;
+    }
+    &__blue-text {
+      color: $aqua-blue;
+      cursor: pointer;
+      font-weight: 400;
+    }
+    &__blue-text-signup {
+      color: $aqua-blue;
+      cursor: pointer;
+      font-weight: 400;
+      padding: 10px;
+      background-color: $--background-blue;
+      border-radius: 5px;
+      @media (max-width:767px) {
+        display: block;
+        
+      }
+    }
+  }
+  &__error-msg{
+    display: flex;
+    flex-wrap: wrap;
+    width:90%;
+    justify-content: center;
+  }
+  &__error {
+    font-size: 16px;
+    color: red;
+    text-align: center;
+  }
+  &__loader {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    box-shadow: 0 2px 0px rgba(0, 0, 0, 0.15), 0 0.5px 0px rgba(0, 0, 0, 0.12),
+      1px 0px 0px rgba(0, 0, 0, 0.12), -1px 0px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+}

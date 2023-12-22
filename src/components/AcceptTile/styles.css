@@ -1,0 +1,50 @@
+.accept-tile {
+  -webkit-box-shadow: 0 2px 0px rgba(0, 0, 0, 0.15), 0 0.5px 0px rgba(0, 0, 0, 0.12), 1px 0px 0px rgba(0, 0, 0, 0.12), -1px 0px 0px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2px 0px rgba(0, 0, 0, 0.15), 0 0.5px 0px rgba(0, 0, 0, 0.12), 1px 0px 0px rgba(0, 0, 0, 0.12), -1px 0px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: white;
+  margin-bottom: 20px;
+  padding: 40px;
+  position: relative;
+}
+
+.accept-tile__logo-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.accept-tile__logo-block__article-text {
+  font-size: 18px;
+}
+
+.accept-tile__title-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+.accept-tile__title-block__article-text {
+  font-size: 27px;
+  font-weight: 500;
+  margin-left: 15px;
+}
+
+.accept-tile__content-block {
+  font-size: 22px;
+  font-weight: 300;
+}
+/*# sourceMappingURL=styles.css.map */

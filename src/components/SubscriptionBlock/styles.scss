@@ -1,0 +1,53 @@
+@import "../../styles/variables.scss";
+.subscribe {
+  &_work-container {
+    // padding: 25px;
+    margin: auto;
+    max-width: 1080px;
+    padding: 20px 20px;
+    box-shadow: 0 2px 0px rgba(0, 0, 0, 0.15), 0 0.5px 0px rgba(0, 0, 0, 0.12),
+      1px 0px 0px rgba(0, 0, 0, 0.12), -1px 0px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    &_title {
+      text-align: center;
+      font-family: "Fjalla One", sans-serif;
+      text-transform: uppercase;
+      color: $aqua-blue;
+      margin: 2rem;
+      font-size: 2.5rem;
+      font-weight: bold;
+      @media (max-width: 576px) {
+        font-size: 1.7rem;
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+    &_work-content {
+      padding-left: 134px;
+      @media (max-width: 1000px) {
+        padding-left: 50px;
+      }
+      @media (max-width: 576px) {
+        padding-left: 0 !important;
+      }
+      &_content {
+        // color: $aqua-blue;
+        max-width: 500px;
+        margin-top: 60px;
+        font-weight: 300;
+        font-size: 1.5vw;
+        text-align: justify;
+        padding: 10px 0;
+        @media (max-width: 1024px) {
+          font-size: 1.2rem;
+          margin-top: 5px;
+        }
+      }
+    }
+    &_work-img {
+      @media (min-width: 768px) and (max-width: 1003px) {
+        width: 100% !important;
+      }
+    }
+  }
+}

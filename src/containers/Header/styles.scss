@@ -1,0 +1,193 @@
+@import "../../styles/variables.scss";
+
+.header {
+  z-index: 999;
+  @media (max-width: 991px) {
+    padding: 5px 10px;
+
+    .header__wrapper {
+      margin: 0;
+    }
+  }
+}
+.header-navebar {
+  .ant-menu {
+    background-color: transparent !important;
+    text-align: right;
+
+    .MuiButton-root {
+      color: rgba(0, 0, 0, 0.87);
+      padding: 6px 16px;
+      font-size: 0.875rem;
+      min-width: 64px;
+      box-sizing: border-box;
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+        border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+      font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+      font-weight: 500;
+      line-height: 1.75;
+      border-radius: 4px;
+      letter-spacing: 0.02857em;
+      text-transform: uppercase;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .ant-menu-inline-collapsed {
+      width: 100% !important;
+    }
+
+    .ant-btn {
+      display: none !important;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .ant-btn {
+      display: block !important;
+    }
+    .ant-menu {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 200px;
+      z-index: 98;
+      overflow: auto;
+      transition: 0.5s;
+
+      &.ant-menu-inline {
+        right: 0;
+        transition: 0.5s;
+
+        &.ant-menu-inline::before {
+          position: fixed;
+          height: 100%;
+          width: 100%;
+          content: "";
+          background-color: rgba(0, 0, 0, 0.5);
+          left: 0;
+          top: 0;
+          z-index: -1;
+        }
+      }
+
+      &.ant-menu-inline-collapsed {
+        right: -200px;
+        transition: 0.5s;
+
+        &::before {
+          display: none;
+        }
+      }
+
+      .menu-container {
+        background-color: #39a2cf !important;
+        height: 100%;
+        position: relative;
+        top: 0;
+        padding-top: 65px;
+
+        .MuiButton-root {
+          width: 100%;
+          display: block;
+          text-align: left;
+        }
+
+        .login-avatar {
+          width: 100%;
+        }
+      }
+    }
+    .ant-btn {
+      position: absolute;
+      top: -30px;
+      right: 10px;
+      z-index: 999;
+      background: $aqua-blue;
+      color: white;
+
+      &:hover,
+      &:focus,
+      &:active {
+        background: $aqua-blue;
+        color: white;
+      }
+    }
+  }
+}
+
+.header {
+  position: sticky;
+  height: 80px;
+  background-size: cover;
+  @media (max-width: 991px) {
+    height: auto;
+  }
+  @media (max-width: 600px) {
+    height: 50px;
+    img {
+      width: 80%;
+    }
+  }
+  &__wrapper {
+    margin: 0 20px 0 50px;
+  }
+  &__logo-block {
+    cursor: pointer;
+    @media (max-width: 767px) {
+      margin-top: 6px;
+    }
+    img {
+      @media (min-width: 768px) and (max-width: 935px) {
+        width: 100%;
+      }
+    }
+  }
+  &__buttons-block {
+    padding: 15px;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+    @media (max-width: 767px) {
+      padding-top: 0 !important;
+      text-align: left;
+      padding-left: 0;
+    }
+    @media (max-width: 950px) {
+      padding-right: 0;
+      padding-top: 7px;
+    }
+    &__button {
+      color: white !important;
+      font-weight: 400 !important;
+      &:hover {
+        background: transparent !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .home_page__search-block {
+    margin-top: -20px !important;
+  }
+
+  .header {
+    height: 60px !important;
+}
+}
+
+.redBg {
+  background: url("../../assets/icons/bluetop.png") no-repeat 100% 100%
+    $--button-red;
+  background-size: cover;
+}
+.whiteBg {
+  // background: url("../../assets/icons/bluetop.png") no-repeat 100% 100% white;
+  background: url("../../assets/icons/bluetop.png") no-repeat 100% 100%;
+  background-size: cover;
+}

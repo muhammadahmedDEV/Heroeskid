@@ -1,0 +1,87 @@
+@import "../../styles/variables.scss";
+
+.mailing-list-popup {
+  width: 100vw;
+  display: flex;
+  padding: 20px;
+  background-color: $--background-blue;
+  color: $--filter-gray;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  font-size: 18px;
+  &__link {
+    color: $aqua-blue;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  > button {
+    background-color: $--filter-gray;
+    height: 38px;
+    width: 138px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 32px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 30px;
+    cursor: pointer;
+  }
+}
+
+.custom-dialog {
+  .MuiDialogTitle-root {
+    padding: 0;
+    .MuiTypography-h6 {
+      color: $aqua-blue;
+      font-size: 30px;
+      font-family: "Bebas Neue", sans-serif;
+      margin-bottom: 10px;
+      font-size: 30px;
+    }
+  }
+  .btn-sub {
+    width: 100%;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    border-radius: 5px;
+  }
+  .btn-sub:hover {
+    color: white;
+  }
+  .btn-sub:focus {
+    color: white;
+  }
+}
+.my-swal {
+  z-index: 2000;
+}
+.Textfont {
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+
+.img {
+  margin-top: 35px;
+}
+
+.ant-btn.close-Btn {
+  border: none;
+  outline: none;
+  box-shadow: none;
+
+  &:focus,
+  &:hover,
+  &:active,
+  &:focus:active {
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+}

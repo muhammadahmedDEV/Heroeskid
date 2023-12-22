@@ -1,0 +1,16 @@
+.org-icon {
+  //   position: relative;
+  &__logo {
+    position: relative;
+    top: -20px;
+    left: 0;
+    max-height: 105px;
+    width: 120px;
+  }
+  &__mask {
+    position: absolute;
+    top: -1px;
+    left: 50%;
+    margin-left: -50px;
+  }
+}

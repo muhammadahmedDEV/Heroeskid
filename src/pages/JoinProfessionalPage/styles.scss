@@ -1,0 +1,87 @@
+@import "../../styles/variables.scss";
+
+.professionals-page {
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+  flex-direction: column;
+  align-items: center;
+}
+.professionals-page__loader {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  // box-shadow: 0 2px 0px rgba(0,0,0,0.15), 0 0.5px 0px rgba(0,0,0,0.12),1px 0px 0px rgba(0,0,0,0.12),-1px 0px 0px rgba(0,0,0,0.12);
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+fieldset {
+  display: block !important;
+  padding: 2rem !important ;
+  // margin-inline-start: 2px !important;
+  // margin-inline-end: 2px !important;
+  // padding-block-start: 1.35em !important;
+  // padding-inline-start: 1.75em !important;
+  // padding-inline-end: 1.75em !important;
+  // padding-block-end: 1.625em !important;
+  min-inline-size: min-content !important;
+  border-width: 2px !important;
+  border-style: groove !important;
+  border-color: threedface !important;
+  border-image: initial !important;
+  margin: 20px 0 !important;
+}
+
+legend {
+  background-color: #000;
+  color: #fff !important;
+  padding: 2px 6px !important;
+  width: auto !important;
+}
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #303036 !important;
+  border-color: #303036 !important;
+}
+.ant-radio-inner::after {
+  background-color: #303036 !important;
+}
+.ant-radio-checked .ant-radio-inner,
+.ant-radio-checked::after {
+  border-color: #303036 !important;
+}
+.ant-radio-inner,
+.ant-checkbox-inner {
+  border: 1px solid #ccc !important;
+}
+.ant-select-selector {
+  min-height: 40px !important;
+}
+.btn-submit {
+  background-color: #303036 !important;
+  border-color: #303036 !important;
+  color: white;
+  font-size: 16px;
+  font-weight: 900 !important;
+  letter-spacing: 0.7px !important;
+  padding: 8px 30px !important;
+  border-radius: 5px !important;
+  :hover {
+    background-color: rgba($color: #000000, $alpha: 0.9);
+  }
+  &_draft {
+    background-color: $aqua-blue;
+    border-radius: 5px !important;
+    padding: 8px 30px !important;
+    // margin-left: 20px;
+  }
+}
+input {
+  margin: 0.4rem;
+}
+
+// .ant-select-selection-placeholder{
+//   color: rgba(0, 0, 0, 0.3) !important;
+
+// }

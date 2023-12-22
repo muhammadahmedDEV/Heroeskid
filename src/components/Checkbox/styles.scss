@@ -1,0 +1,62 @@
+.checkbox{
+    &__container {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 22px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        >input{
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            height: 0;
+            width: 0;
+        }        
+      }
+      &__checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 24px;
+        width: 24px;
+        background-color: #eee;
+        border-radius: 5px;        
+        box-shadow: 0 -2px 0px rgba(0,0,0,0.15), 0 0.5px 0px rgba(0,0,0,0.12),1px 0px 0px rgba(0,0,0,0.12),-1px 0px 0px rgba(0,0,0,0.12);
+        :after {
+            content: "";
+            position: absolute;
+            display: none;
+          }
+      }
+      &__container:hover input ~ &__checkmark {
+        background-color: #eee;
+      }
+      &__container >input:checked ~ &__checkmark {
+        background:   url('../../assets/icons/checked.png') no-repeat 50% 50%;       
+        
+
+      }
+      &__container >input:checked ~ &__checkmark:after {
+        display: block;
+      }
+      
+      &__container &__checkmark:after {
+        left: 9px;
+        top: 5px;
+        width: 5px;
+        height: 10px;
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+      }
+      &__title{
+          font-size: 16px
+      }  
+}

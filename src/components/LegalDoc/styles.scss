@@ -1,0 +1,45 @@
+@import "../../styles/variables.scss";
+
+.privacy-policy {
+  &__container {
+    padding: 0 90px;
+    @media (max-width: 576px) {
+      padding: 0 24px;
+    }
+    &__title {
+      text-align: center;
+      font-family: "Fjalla One", sans-serif;
+      text-transform: uppercase;
+      color: $aqua-blue;
+      margin: 2rem;
+      font-size: 2.5rem;
+      @media (max-width: 616px) {
+        font-size: 1.5rem;
+      }
+    }
+    &__content {
+      color: $--filter-gray;
+      font-weight: 300;
+      font-size: 1.25vw;
+      margin: auto;
+      text-align: justify;
+      @media (min-width: 768px) and (max-width: 1024px) {
+        font-size: 2vw;
+      }
+      @media (max-width: 616px) {
+        font-size: 1rem;
+      }
+
+      &__link {
+        margin-top: 20px;
+        color: $aqua-blue;
+        text-decoration: none;
+        font-weight: 500;
+      }
+      &__grey {
+        color: $--filter-gray;
+        font-weight: 500;
+      }
+    }
+  }
+}

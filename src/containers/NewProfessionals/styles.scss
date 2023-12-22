@@ -1,0 +1,59 @@
+@import "../../styles/variables.scss";
+
+.professional-new {
+  margin: 45px 0;
+  &__header {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    &__header-title {
+      font-family: "Bebas Neue", sans-serif;
+      text-transform: uppercase;
+      color: #00aeef;
+      font-size: 36px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      @media (max-width: 616px) {
+        font-size: 26px;
+      }
+    }
+    &__top_text {
+      font-size: 20px;
+      font-weight: 500;
+    }
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+  .react-multiple-carousel__arrow--left {
+    left: 0 !important;
+  }
+  .react-multi-carousel-track {
+    padding-left: 20px !important;
+  }
+}
+@media (max-width: 767px) {
+  .react-multiple-carousel__arrow--left {
+    left: 0 !important;
+  }
+}
+@media (max-width: 992px) {
+  .visible_md {
+    display: none !important;
+  }
+  .visible_sm {
+    display: flex;
+  }
+}
+@media (min-width: 993px) {
+  .visible_md {
+    display: flex;
+  }
+  .visible_sm {
+    display: none !important;
+  }
+}

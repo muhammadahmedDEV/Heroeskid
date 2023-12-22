@@ -1,0 +1,60 @@
+@import "../../styles/variables.scss";
+
+.work-container {
+  padding: 25px;
+}
+.work-content {
+  padding-left: 134px;
+  @media (max-width: 1000px) {
+    padding-left: 50px;
+  }
+  @media (max-width: 576px) {
+    padding-left: 0 !important;
+  }
+}
+.work-img {
+  @media (min-width: 768px) and (max-width: 1003px) {
+    width: 100% !important;
+  }
+}
+.title {
+  text-align: center;
+  font-family: "Fjalla One", sans-serif;
+  text-transform: uppercase;
+  color: $aqua-blue;
+  margin: 2rem;
+  font-size: 2.5rem;
+  @media (max-width: 576px) {
+    font-size: 1.7rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+.testimonials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+  @media (max-width: 576px) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.content-container {
+  margin-left: 30px;
+  @media (max-width: 576px) {
+    margin-top: 10px;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+}
+.content-container .content {
+  color: $aqua-blue;
+  font-weight: 500;
+  font-size: 1.25vw;
+  text-align: justify;
+  @media (max-width: 1024px) {
+    font-size: 1.2rem;
+    margin-top: 5px;
+  }
+}

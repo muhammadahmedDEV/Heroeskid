@@ -1,0 +1,65 @@
+@import "../../styles/variables.scss";
+
+.contact-logo {
+  box-shadow: 0 2px 0px rgba(0, 0, 0, 0.15), 0 0.5px 0px rgba(0, 0, 0, 0.12),
+    1px 0px 0px rgba(0, 0, 0, 0.12), -1px 0px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  background-color: white;
+  width: 100%;
+  color: $--filter-gray;
+  position: relative;
+  height: auto;
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  &__article-text {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  &__contact-info {
+    display: flex;
+    flex-direction: row;
+    &__text-block {
+      margin: 0 10px;
+      font-size: 16px;
+      word-break: break-word;
+      line-break: auto;
+      word-wrap: break-word;
+      &_email {
+        color: $aqua-blue;
+        margin-bottom: 5px;
+      }
+      &_name {
+        margin-bottom: 5px;
+        font-weight: 400;
+      }
+    }
+  }
+
+  &__logo-block {
+    display: flex;
+    &__logo-mask {
+      position: relative;
+      &__logo {
+        height: 111px;
+        width: 134px;
+        padding-left: 1px;
+      }
+      &__mask {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 136px;
+      }
+      &__star {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 30%;
+      }
+    }
+  }
+}

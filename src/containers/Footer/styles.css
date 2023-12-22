@@ -1,0 +1,57 @@
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 225px;
+  background-size: contain;
+  padding: 90px 35px 0px 110px;
+}
+
+.footer__text-block {
+  text-align: center;
+  width: 666px;
+  font-size: 18px;
+}
+
+.footer__text-block__company-text {
+  margin-top: 47px;
+  font-size: 13px;
+}
+
+.footer__text-block__company-text__email {
+  color: white;
+}
+
+.footer__text-block__company-text__policy {
+  border-left: 1px solid black;
+  padding-left: 12px;
+  margin-left: 10px;
+}
+
+.footer__buttons-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__buttons-block__button {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  margin: 0px 15px;
+}
+
+.redBgFooter {
+  background: url("../../assets/icons/crayonedge_bluebottom.png") repeat-x 100% 100% #e5ecef;
+}
+
+.whiteBgFooter {
+  background: url("../../assets/icons/crayonedge_bluebottom.png") repeat-x 100% 100%;
+}
+/*# sourceMappingURL=styles.css.map */

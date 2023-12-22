@@ -1,0 +1,117 @@
+.user-logo {
+  background-color: #d12c27;
+  width: 100%;
+  height: 300px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.user-logo__logo {
+  height: 85px;
+  width: 100px;
+}
+
+.user-logo__mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.user-logo__logo-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.user-logo__logo-block__logo-mask {
+  position: relative;
+}
+
+.user-logo__logo-block__logo-mask__logo {
+  height: 211px;
+  width: 234px;
+  padding-left: 1px;
+}
+
+.user-logo__logo-block__logo-mask__mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 236px;
+}
+
+.user-logo__logo-block__logo-mask__star {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.user-logo__logo-block__text-block {
+  margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.user-logo__logo-block__text-block__second {
+  font-size: 22px;
+  font-weight: 200;
+}
+
+.user-logo__logo-block__text-block__third {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.user-logo__text-block-second {
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.user-logo__text-block-second__distance {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 24px 0px;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.user-logo__text-block-second__location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.button-bottom-left {
+  position: absolute;
+  bottom: -7px;
+  left: -25px;
+}
+/*# sourceMappingURL=styles.css.map */

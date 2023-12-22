@@ -1,0 +1,16 @@
+.user-icon {
+  //   position: relative;
+  &__logo {
+    position: relative;
+    top: -20;
+    left: 0;
+    max-height: 87px;
+    width: 103px;
+  }
+  &__mask {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -52px;
+  }
+}

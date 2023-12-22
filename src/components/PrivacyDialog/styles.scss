@@ -1,0 +1,36 @@
+@import "../../styles/variables.scss";
+
+.privacy-tile {
+  width: 100vw;
+  display: flex;
+  padding: 20px;
+  background-color: $--background-blue;
+  color: $--filter-gray;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  font-size: 18px;
+  &__link {
+    color: $aqua-blue;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  > button {
+    background-color: $--filter-gray;
+    height: 38px;
+    width: 138px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 32px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 30px;
+    cursor: pointer;
+  }
+}

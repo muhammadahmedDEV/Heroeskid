@@ -1,0 +1,86 @@
+@import "../../styles/variables.scss";
+
+.feedback-block {
+  margin: 45px 0;
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    &__top_text {
+      font-family: "Bebas Neue", sans-serif;
+      text-transform: uppercase;
+      color: #00aeef;
+      font-size: 36px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      @media (max-width: 616px) {
+        font-size: 26px;
+      }
+    }
+    margin-bottom: 25px;
+  }
+  &__body {
+    width: auto;
+    padding: 40px 20px;
+    box-shadow: 0 2px 0px rgba(0, 0, 0, 0.15), 0 0.5px 0px rgba(0, 0, 0, 0.12),
+      1px 0px 0px rgba(0, 0, 0, 0.12), -1px 0px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    background: white;
+    text-align: center;
+    &__content {
+      max-width: 895px;
+      max-height: 370px;
+      padding: 20px;
+      // text-align: center;
+    }
+    &__author {
+      font-size: 20px;
+      font-weight: 200;
+    }
+    &__sharebtn {
+      text-align: center;
+      margin-top: 45px;
+    }
+    &__feedback {
+      font-size: 1.75rem;
+      text-align: center;
+      font-weight: 200;
+      line-height: 50px;
+      @media (max-width: 767px) {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+// .ant-carousel .slick-prev {
+// }
+.ant-carousel {
+  .slick-next {
+    margin-right: 20px !important;
+    &::before {
+      content: "" !important;
+    }
+  }
+  .slick-prev {
+    margin-left: 20px !important;
+    &::before {
+      content: "" !important;
+    }
+  }
+}
+.slick-dots li button {
+  margin-top: 50px;
+  width: 6px !important;
+  height: 6px !important;
+  border-radius: 100% !important;
+  border: 2px solid #303036 !important;
+}
+> .slick-dots li.slick-active button {
+  margin-top: 50px;
+  width: 7px !important;
+  height: 7px !important;
+  border-radius: 100% !important;
+  background: #303036 !important;
+}

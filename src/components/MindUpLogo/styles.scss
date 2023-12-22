@@ -1,0 +1,56 @@
+@import "../../styles/variables.scss";
+
+.mindUp-logo {
+  @media (max-width: 576px) {
+    margin-top: 16px;
+  }
+  &__header {
+    display: flex;
+    // justify-content: space-between;
+    justify-content: flex-start;
+    margin: 30px 0 25px 0;
+
+    &__top_text {
+      font-family: "Bebas Neue", sans-serif;
+      text-transform: uppercase;
+      color: #00aeef;
+      font-size: 36px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      @media (max-width: 616px) {
+        font-size: 26px;
+      }
+    }
+  }
+  &__body {
+    width: auto;
+    padding: 20px 20px;
+    box-shadow: 0 2px 0px rgba(0, 0, 0, 0.15), 0 0.5px 0px rgba(0, 0, 0, 0.12),
+      1px 0px 0px rgba(0, 0, 0, 0.12), -1px 0px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__feedback {
+      font-family: Montserrat;
+      font-size: 24px;
+      font-weight: 300;
+      text-align: center;
+      margin-top: 10px;
+    };
+    &__mindUp {
+      font-family: Montserrat;
+      font-size: 15px;
+      font-weight: 300;
+      text-align: center;
+      padding: 10px 64px;
+    };
+    &__mindUpLogo {
+      text-align: center;
+    };
+  }
+}

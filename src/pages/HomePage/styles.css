@@ -1,0 +1,23 @@
+.home_page {
+  width: 100%;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.home_page__search-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 35px;
+}
+
+.home_page__search-block__slogan {
+  font-size: 20px;
+  font-weight: 300;
+  width: 1100px;
+  text-align: center;
+}
+/*# sourceMappingURL=styles.css.map */
